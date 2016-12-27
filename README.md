@@ -5,13 +5,15 @@
 	
 	
 	
-	再打开js文件夹，修改player.js中的   apiurl = "http://api.yinrao.cc/wyplayer/get.php";   将其域名修改为自己服务器Ip地址或绑定的域名
+	再打开js文件夹，修改player.js中的   apiurl = "http://api.yinrao.cc/wyplayer/get.php";   
+	将其域名修改为自己服务器Ip地址或绑定的域名
 	
 	
 	修改music.js 请将修改完成的代码进行ESCAPE加密处理，在进行beas64加密，添加至原位置中
 	
 	
-	至此，完成修改，调用方法为：﻿<script>auto="open";random="open";name="演示播放器";geci="open";user="291420238";welcome="open";tips="欢迎访问我的网站";</script>
+	至此，完成修改，调用方法为：
+	<script>auto="open";random="open";name="演示播放器";geci="open";user="291420238";welcome="open";tips="欢迎访问我的网站";</script>
 <script type="text/javascript" src="http://api.yinrao.cc/wyplayer/music.js"></script>  
 
 
