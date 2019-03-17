@@ -51,13 +51,13 @@ function lrc_th($str)
 {
 	global $url;
 	$str = preg_replace("@(\w+)?\.?(\w+)\.(com|org|info|net|cn|biz|cc|uk|tk|jp|la|ru|us|ws)@U", 'tv1314.com', $str);
-	$str = preg_replace("@\[by:\s?([^\]]+)\]@U", '[by:嘟嘟音乐电台]', $str);
+	$str = preg_replace("@\[by:\s?([^\]]+)\]@U", '[造梦先生]', $str);
 	$str = preg_replace("@(\d+){5,11}@", '*********', $str);
-	$str = preg_replace("@\[([A-Za-z]+)\]@U", '这句歌词飞不见啦~~', $str);
-	$str = preg_replace("@编辑\s?：?:?\s?([^\[]+)\[@", 'BY:火星人[', $str);
+	$str = preg_replace("@\[([A-Za-z]+)\]@U", '无歌词', $str);
+	$str = preg_replace("@编辑\s?：?:?\s?([^\[]+)\[@", 'BY:造梦先生[', $str);
 	$str = str_replace("\\n", "", $str);
 	$str = str_replace("TTPOD", "GS'bolg", $str);
-	$str = str_replace("天天动听", "DuDuPlayer", $str);
+	$str = str_replace("ttdt", "zm", $str);
 	$str = str_replace("'", "\'", $str);
 	$str = str_replace("\n", "", $str);
 	return $str;
